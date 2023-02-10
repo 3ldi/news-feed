@@ -1,0 +1,89 @@
+/* 
+    Styles for BBC News Page.
+    Author: Eldi Prifti
+*/
+
+body {
+    background-color: rgba(211, 211, 211, 0.927);
+    color: black;
+    margin: 0% 15%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header h1 {
+    background-image: url(../images/bbc_news_120x60.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: scroll;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 60px;
+    text-align:center;
+}
+
+header img {
+    float: left;
+    clear: none;
+    width: 120px;
+    height: auto;
+    margin-right: 1em;
+}
+
+article {
+    display: block;
+    background-color: white;
+    margin: 25px 0px;
+    padding: 1% 2%;
+}
+
+article p {
+    font-size: larger;
+}
+
+span.date {
+    margin-top: 1em;
+    display: block;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+a,
+a:visited {
+    background-color: white;
+    color:rgba(139, 0, 0, 0.899);
+}
+
+.technology a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.technology a:active {
+    text-decoration: underline;
+    color: green;
+}
+
+footer {
+    background-color: rgba(0, 128, 128, 0.242);
+    border-top: 2px solid black;
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+footer a, 
+footer a:visited {
+    background-color: inherit;
+    color:rgba(139, 0, 0, 0.899);
+}
+footer a:hover {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+footer a:active {
+    background-color: darkred;
+    color: white;
+}
